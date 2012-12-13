@@ -1,4 +1,4 @@
 class collector_test {
   notify { 'foo': }
-  collector_test::def { 'bar': }
+  include collector_test::override
 }
